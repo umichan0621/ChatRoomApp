@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChatRoomServerLinux", "ChatRoomServerLinux.vcxproj", "{40095643-5821-4FD9-913B-DF367BDEDE5D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChatRoomApp", "..\ChatRoomApp\ChatRoomApp.vcxproj", "{BA86BC60-2C51-3E90-BF4D-1D49C3098824}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -41,6 +43,16 @@ Global
 		{40095643-5821-4FD9-913B-DF367BDEDE5D}.Release|x86.ActiveCfg = Release|x86
 		{40095643-5821-4FD9-913B-DF367BDEDE5D}.Release|x86.Build.0 = Release|x86
 		{40095643-5821-4FD9-913B-DF367BDEDE5D}.Release|x86.Deploy.0 = Release|x86
+		{BA86BC60-2C51-3E90-BF4D-1D49C3098824}.Debug|ARM.ActiveCfg = Debug|x64
+		{BA86BC60-2C51-3E90-BF4D-1D49C3098824}.Debug|ARM64.ActiveCfg = Debug|x64
+		{BA86BC60-2C51-3E90-BF4D-1D49C3098824}.Debug|x64.ActiveCfg = Debug|x64
+		{BA86BC60-2C51-3E90-BF4D-1D49C3098824}.Debug|x64.Build.0 = Debug|x64
+		{BA86BC60-2C51-3E90-BF4D-1D49C3098824}.Debug|x86.ActiveCfg = Debug|x64
+		{BA86BC60-2C51-3E90-BF4D-1D49C3098824}.Release|ARM.ActiveCfg = Release|x64
+		{BA86BC60-2C51-3E90-BF4D-1D49C3098824}.Release|ARM64.ActiveCfg = Release|x64
+		{BA86BC60-2C51-3E90-BF4D-1D49C3098824}.Release|x64.ActiveCfg = Release|x64
+		{BA86BC60-2C51-3E90-BF4D-1D49C3098824}.Release|x64.Build.0 = Release|x64
+		{BA86BC60-2C51-3E90-BF4D-1D49C3098824}.Release|x86.ActiveCfg = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
